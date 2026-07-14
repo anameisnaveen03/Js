@@ -2,8 +2,9 @@ console.log("Welcome To Our Bus Services");
 
 let pessengerName = prompt("Please Enter Pessenger Name : ");
 
-let Destination = toLowerCase(prompt("Enter Your Destination : "));
-switch (Destination) {
+let Destination = prompt("Enter Your Destination : ");
+let d = Destination.toLowerCase()
+switch (d) {
     case "jaipur":
         console.log(pessengerName,"You need to pay 100 Rupees");
         break;
